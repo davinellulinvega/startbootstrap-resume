@@ -29,7 +29,7 @@ html(lang='en')
             a.navbar-brand.js-scroll-trigger(href='#page-top')
                 span.d-block.d-lg-none Luc Caspar, Ph.D.
                 span.d-none.d-lg-block
-                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='')
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/openYourMind.png', alt='profile picture')
             button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
                 span.navbar-toggler-icon
             #navbarSupportedContent.collapse.navbar-collapse
@@ -79,6 +79,8 @@ html(lang='en')
                             i.fab.fa-gitlab
                         a.social-icon(href='https://stackoverflow.com/users/3897027/domochevski')
                             i.fab.fa-stack-overflow
+                        a.social-icon(href='assets/pdf/resume_Caspar_Luc_long.pdf' target='_blank')
+                            i.fas.fa-file-pdf
 
             hr.m-0
 
@@ -218,7 +220,7 @@ html(lang='en')
                         .flex-grow-1
                             h3.mb-0 Junior Software Engineer
                             .subheading.mb-3 
-                               a.text-body(href='https://www.aca.fr/?lang=en') Artaud, Courthéoux \& associés (ACA)
+                               a.text-body(href='https://www.aca.fr/?lang=en') Artaud, Courthéoux & associés (ACA)
                             p
                                | The main mission was the development of a Web Application to manage the customers of an insurance company, along with the different contracts they subscribed to.
                             p.text-secondary.text-center
@@ -311,44 +313,152 @@ html(lang='en')
                        .progress-bar(role='progressbar' style='width:10%;' aria-valuemin='0' aria-valuenow='1' aria-valuemax='10') Bash - 1 year
 
                     .subheading.mb-3 Frameworks
-                    p
-                       | Numpy / SciPy, DEAP, Thespian, Tensorflow, Keras, OpenAi Gym, HDF5 / h5py, SocketIO
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:70%;' aria-valuemin='0' aria-valuenow='7' aria-valuemax='10') 
+                          a.text-light(href='https://numpy.org/install/') Numpy
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:70%;' aria-valuemin='0' aria-valuenow='2' aria-valuemax='10') 
+                          a.text-light(href='https://www.scipy.org/scipylib/index.html') Scipy
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:40%;' aria-valuemin='0' aria-valuenow='4' aria-valuemax='10') 
+                          a.text-light(href='https://deap.readthedocs.io/en/master/') DEAP
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='http://thespianpy.com/doc/') Thespian
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://www.tensorflow.org/') Tensorflow
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://keras.io/') Keras
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://gym.openai.com/') OpenAI Gym
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://docs.h5py.org/en/latest/') HDF5 / H5py
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://python-socketio.readthedocs.io/en/latest/') SocketIO
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://pandas.pydata.org/pandas-docs/stable/index.html') Pandas
 
                     .subheading.mb-3 Web Development
-                    p
-                       | Html 4/5, Php 7, Css 2/3, Javascript, Ajax, JQuery, REST Api, Backbone.js, Django, Websockets, Requests
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') Html 4/5
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') Php 7
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') Css 2/3
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') JavaScript
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') Ajax
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') JQuery
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') REST Api
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://backbonejs.org/') Backbone.js
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://www.djangoproject.com/') Django
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://websockets.readthedocs.io/en/stable/') Websockets
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://requests.readthedocs.io/en/master/') Requests
 
                     .subheading.mb-3 Integrated Development Environment
-                    p
-                       | PyCharm, Vim / NeoVim
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://www.jetbrains.com/pycharm/') PyCharm
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://neovim.io/') Vim / NeoVim
 
                     .subheading.mb-3 Office
-                    p
-                       | Latex, LibreOffice
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://www.latex-project.org/') Latex
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://www.libreoffice.org/') LibreOffice
 
                     .subheading.mb-3 Robotics
-                    p
-                       | Robot Operating System (ROS), Webots, E-Puck robot, Nao robot, Naoqi, Sphero, Gazebo
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://www.ros.org/') ROS
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://www.cyberbotics.com/') Webots
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='http://www.e-puck.org/') E-Puck Robot
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://us.softbankrobotics.com/nao') Nao Robot
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='http://doc.aldebaran.com/2-1/naoqi/index.html#naoqi-api') Naoqi
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://sphero.com/') Sphero
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='http://gazebosim.org/') Gazebo
 
                     .subheading.mb-3 Design
-                    p
-                       | Inkscape, Gimp 2.x, Dia
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://inkscape.org/') Inkscape
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://www.gimp.org/') Gimp 2.x
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='http://dia-installer.de/') Dia
 
                     .subheading.mb-3 System Administration
-                    p
-                       | Apache 2.x, Arch Linux, Ubuntu Desktop / Server
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='http://httpd.apache.org/') Apache
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://archlinux.org/') Arch Linux
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://ubuntu.com/') Ubuntu Desktop / Server
 
                     .subheading.mb-3 Machine Learning
-                    p
-                       | Reinforcement Learning, Genetic Algorithms, Artificial/Convolutional Neural Networks, LEABRA / Emergent
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') Reinforcement Learning
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') Genetic Algorithm
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') ANN / CNN
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://github.com/emer/emergent') LEABRA / Emergent
 
                     .subheading.mb-3 Databases
-                    p
-                       |MySql, MariaDB 
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://www.mysql.com/') MySql
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://mariadb.com/') MariaDB
 
                     .subheading.mb-3 Miscellaneous
-                    p
-                       | Mendeley, Amazon Web Services
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://www.mendeley.com/search/') Mendeley
+                    .progress.mb-1(style='height:25px;')
+                       .progress-bar(role='progressbar' style='width:100%;' aria-valuemin='0' aria-valuenow='0' aria-valuemax='10') 
+                          a.text-light(href='https://aws.amazon.com/') Amazon Web Services
 
             hr.m-0
 
@@ -356,10 +466,19 @@ html(lang='en')
             section#languages.resume-section
                 .resume-section-content
                     h2.mb-5 Languages
-                    p
-                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
-                    p.mb-0
-                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+                    table.table-borderless
+                       tr
+                          td.subheading.text-body.pr-5 French
+                          td Native
+                       tr
+                          td.subheading.text-body.pr-5 English
+                          td TOEIC: 900, TOEFL: 105
+                       tr
+                          td.subheading.text-body.pr-5 Japanese
+                          td Beginner
+                       tr
+                          td.subheading.text-body.pr-5 German
+                          td Beginner
 
             hr.m-0
 
@@ -367,45 +486,61 @@ html(lang='en')
             section#presentations.resume-section
                 .resume-section-content
                     h2.mb-5 Presentations
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Google Analytics Certified Developer
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Mobile Web Specialist - Google Certification
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 2
-                            sup nd 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - James Buchanan High School - Hackathon 2006
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 3
-                            sup rd 
-                            | Place - James Buchanan High School - Hackathon 2005
+
+                    // AISB
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0
+                               a.text-body(href='http://aisb2017.cs.bath.ac.uk/index.html') Artificial Intelligence and Simulation of Behavior (AISB) Convention
+                            .subheading.mb-3 Talk
+                            ul
+                               li A presentation detailing the ProtoEmo architecture, which was developed during my PhD project, and whose design is based on the survival circuits made of the Thalamus, Amygdala, and Hypothalamus (three areas found at the base of the animal's brain).
+                               li The talk also described the simulation results gathered using ProtoEmo as a control mechanism for groups of virtual agents having to survive in a dynamic environment.
+                        .flex-shrink-0
+                            .text-primary Bath, The United Kingdom
+                            .text-secondary 
+                               | 21 
+                               sup st
+                               | April 2017
+
+                    // EuCog
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0
+                               a.text-body(href='http://www.eucognition.org/index.php?page=2016-vienna-general-info') EUCognition Meeting
+                            .subheading.mb-3 Poster
+                            ul
+                               li Presented a poster introducing the basic concepts upon which the ProtoEmo architecture had been developed.
+                               li The poster also contained some preliminary simulation results showing the potential of the ProtoEmo architecture as a control / decision-making system.
+                        .flex-shrink-0
+                            .text-primary Vienna, Austria
+                            .text-secondary 
+                               | 8 
+                               sup th
+                               | December 2016
+
+                    // SICE
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 SICE annual Conference
+                            .subheading.mb-3 Talk
+                            ul
+                               li An extended presentation of the results gathered during my master project at Osaka Prefecture University.
+                        .flex-shrink-0
+                            .text-primary Osaka, Japan
+                            .text-secondary 2012
+
+                    // SCI
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 SCI
+                            .subheading.mb-3 Talk
+                            ul
+                               li A presentation describing the model of emotions developed for my master project.
+                               li The talk also included some preliminary results showing the potential of using emotions in teams of co-evolving robots.
+                        .flex-shrink-0
+                            .text-primary Osaka, Japan
+                            .text-secondary 2012
 
             hr.m-0
 
@@ -413,45 +548,143 @@ html(lang='en')
             section#publications.resume-section
                 .resume-section-content
                     h2.mb-5 Publications
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Google Analytics Certified Developer
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Mobile Web Specialist - Google Certification
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 2
-                            sup nd 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - James Buchanan High School - Hackathon 2006
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 3
-                            sup rd 
-                            | Place - James Buchanan High School - Hackathon 2005
+
+                    // ReScience
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 [Re] An Anatomically Constrained Neural Network Model of Fear Conditioning
+                            .subheading.mb-3 Author
+                            ul
+                               li 
+                                  | Describes the reproduction of an experiment first reported by Armony et al. (1995) in an article entitled:
+                                  em "An Anatomically Constrained Neural Network of Fear Conditioning"
+                               li 
+                                  | The original paper describes a computational model of the 
+                                  em 'Two pathways to the Amygdala'
+                                  | which uses non-linear neural units to approximate the behavior of a population of real neurons, and learns via a modified Hebbian update rule.
+                               li Replicated in this paper is a classical conditioning experiment showing that the model exhibits conditioned responses analogous to  those observed in animals, and that units within the model exhibit changes in activity during conditioning similar to those observed in single-cell recordings.
+                        .flex-shrink-0
+                            .text-primary 
+                               a(href='http://rescience.github.io/') Rescience C
+                            .text-secondary Ongoing
+
+                    // IEEE ProtoEmo
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 
+                               b ProtoEmo
+                               | : Investigating the role of the 
+                               em 'Survival Circuits'
+                               | in social agents
+                            .subheading.mb-3 Author
+                            ul
+                               li 
+                                  | Emotions have been described as a mechanism that evolved to increase the survival potential of animals. Relying on this definition, LeDoux (2012) suggested that in the animal's brain there exist 
+                                  em 'Survival Circuits'
+                                  | in charge of maintaining the body's homeostasis. He further theorized that those same circuits act as the trigger to an emotional episode.
+                               li 
+                                  | Using LeDoux's survival circuit theory, the 
+                                  b ProtoEmo
+                                  | architecture modeled after the connections between the Thalamus, the Amygdala, and the Hypothalamus, was built to investigate if the survival circuits, identified as being essential to an animal's survival, could also be applied to influence the actions of virtual agents.
+                               li 
+                                  | To explore the validity of this hypothesis, the 
+                                  b ProtoEmo
+                                  | architecture was used as a control mechanism for groups of virtual agents in a resource foraging task. In addition, from foraging for energy each agent could fight, run away, and procreate. For this simulation, the agents' ultimate goal was to at least survive, and at best increase the size of the population.
+                               li 
+                                  | Compared to other emotional agents, the virtual agents controlled by the 
+                                  b ProtoEmo
+                                  | architecture managed to evolve a strategy which allowed them to increase the group's size ten fold. Thus, it was concluded that not only are the survival circuits also applicable to virtual agents, the amygdala was also identified as the trigger for more complex full-fledged emotions.
+                        .flex-shrink-0
+                            .text-primary 
+                               a(href='https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165369') IEEE Transactions on Affective Computing
+                            .text-secondary Ongoing
+
+                    // IEEE PrimEmo
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0
+                               b PrimEmo
+                               | : Investigating the role of emotions in the decision-making process
+                            .subheading.mb-3 Author
+                            ul
+                               li 
+                                  | Based on the results gathered via the 
+                                  b ProtoEmo
+                                  | architecture, I hypothesized that the addition of a system capable of encoding the salience of survival relevant situational features would enhance the survival capabilities of virtual agents in complex and dynamic environments. Furthermore, the mechanisms responsible for representing a feature's salience would also trigger an emotional episode.
+                               li 
+                                  | To investigate the validity of those hypotheses, the
+                                  b ProtoEmo
+                                  | architecture has been combined with a model of the decision-making process developed by Frank et al. (2001). The resulting system was named
+                                  b PrimEmo
+                                  | and has been tested in a more complex version of the resource foraging task.
+                               li 
+                                  | Viking Doom is an online roguelike game in which multiple heroes have to collect as much gold as possible in a given amount of time. Each hero is characterized by a level of strength, its remaining level of health, and the amount of gold gathered so far. To grow stronger a hero can fight against different types of enemies, at the risk of dying if its life is depleted. Finally, on the contrary to the resource foraging task used for the 
+                                  b ProtoEmo
+                                  | architecture, heroes did not belong to the same group, and could, therefore, also fight against each other.
+                               li 
+                                  | A hero controlled by the
+                                  b PrimEmo
+                                  | architecture was compared to two heroes which used DQN and A2C, respectively, to learn an optimal strategy. In the end, although, the
+                                  b PrimEmo
+                                  | controller performed similarly to the A2C, the strategies adopted by each learning mechanism were quite different. Indeed, whereas the A2C had a rather
+                                  em 'aggressive'
+                                  | policy, which focused on gathering gold at the risk of killing its hero,
+                                  b PrimEmo
+                                  | more highly valued the life of its agent, giving up gold if it meant keeping its hero alive.
+                        .flex-shrink-0
+                            .text-primary
+                               a(href='https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165369') IEEE Transactions on Affective Computing
+                            .text-secondary Ongoing
+
+                    // WhiteRose Thesis
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 The Role of Emotions in Autonomous Social Agents
+                            .subheading.mb-3 Author
+                            ul
+                               li The thesis describing the different steps, architectures, simulations, and experimental results obtained during my PhD project.
+                        .flex-shrink-0
+                            .text-primary 
+                               a(href='http://etheses.whiterose.ac.uk/28366/') White Rose eTheses Online
+                            .text-secondary February 2020
+
+                    // AISB
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 
+                               b PrimEmo
+                               | : A Neural Implementation of Survival Circuits Supporting Primitive Emotions
+                            .subheading.mb-3 Author
+                            ul
+                               li An article presented at the AISB convention in 2017, detailing the PrimEmo architecture developed during my PhD degree. 
+                        .flex-shrink-0
+                            .text-primary 
+                               a(href='https://cris.brighton.ac.uk/ws/portalfiles/portal/452820/conference-edition-proceedings.pdf' target='_blank') Proceedings of AISB Annual Convention 2017
+                            .text-secondary 2017
+
+                    // SICE 2012
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Introduction of Emotions in Coevolving Multi-agent System
+                            .subheading.mb-3 Author
+                            ul
+                               li A second article presented at the SICE conference during my master degree at Osaka Prefecture University.
+                               li Details the model of human emotions developed for my master project.
+                        .flex-shrink-0
+                            .text-primary Proceedings of SICE annual conference 2012
+                            .text-secondary 2012
+
+                    // SCI 2012
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Emotion and Coevolution of Learning Robots Teams
+                            .subheading.mb-3 Author
+                            ul
+                               li An article presented at the SCI conference during my master degree at Osaka Prefecture University.
+                               li Introduces the model of human emotions built during my master project.
+                        .flex-shrink-0
+                            .text-primary Proceedings of SCI annual conference 2012
+                            .text-secondary 2012
 
         // Bootstrap core JS
         script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
